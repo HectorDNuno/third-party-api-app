@@ -1,6 +1,5 @@
 Rails.application.routes.draw do
-  # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
-
-  # Defines the root path route ("/")
-  # root "articles#index"
+  get "news_articles" => "news_articles#index"
 end
+
+# 470e0e46553c3210a1c06c14ad4fd091
